@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.intro-title,
+.intro-des {
+  width: 100%;
+  text-align: center;
+}
+.intro-title {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 50vh;
+  color: #f49303;
+  font-size: 7rem;
+  background-color: white;
+}
+.intro-des {
+  height: 50vh;
+  color: white;
+  font-size: 5rem;
+  background-color: #f49303;
+}
+@media screen and (max-width: 650px) {
+  .intro-title {
+    height: 70vh;
+  }
+  .intro-des {
+    height: 60vh;
+  }
+}

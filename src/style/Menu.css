@@ -1,0 +1,45 @@
+html {
+  scroll-behavior: smooth;
+}
+.menu-wrapper {
+  position: fixed;
+  width: 100%;
+}
+.menu-container {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  background-color: white;
+}
+.menu-item {
+  display: block;
+}
+.menu-link {
+  display: block;
+  padding: 18px 30px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #f49303;
+  text-decoration: none;
+}
+.menu-link:hover {
+  color: black;
+}
+@media screen and (max-width: 650px) {
+  .menu-container {
+    flex-direction: column;
+  }
+  .menu-item {
+    text-align: center;
+    background-color: #f49303;
+  }
+  .menu-link {
+    color: white;
+  }
+  .menu-item:hover {
+    background-color: white;
+  }
+  .menu-item:hover > .menu-link {
+    color: #f49303;
+  }
+}

@@ -1,0 +1,43 @@
+.tech-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.tech-container {
+  -ms-overflow-style: none;
+}
+.tech-container::-webkit-scrollbar {
+  display: none;
+}
+.tech-title {
+  padding: 20px 20px 0px 20px;
+  /* border-bottom: 2px solid black; */
+}
+.skill-container {
+  margin-top: 15px;
+  margin-bottom: 45px;
+}
+.skill-item-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.skill-item {
+  margin: 10px 10px 10px 0;
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+}
+.qualify-list {
+  margin: 25px 0 25px 40px;
+}
+.qualify-item {
+  margin: 10px 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
